@@ -17,7 +17,7 @@ Working thesis — *"Mind the Gap: Australia's Lived Reality Paradox"*: macro pr
 **Key columns** (each has a CODE + a LABEL twin; the LABEL twins `Time period`, `Observation value`, `Observation status` are BLANK in data rows — always read the CODE):
 
 | Purpose | Use column | Note |
-|---|---|---|
+| --- | --- | --- |
 | Country (join key) | `REF_AREA` (`AUS`) | label `Reference area` (`Australia`) |
 | Indicator (join key) | `MEASURE` (`1_1`) | readable `Measure` (long name) |
 | Year (join key) | `TIME_PERIOD` (int) | label twin is blank |
@@ -38,7 +38,7 @@ Working thesis — *"Mind the Gap: Australia's Lived Reality Paradox"*: macro pr
 `↑`=higher better, `↓`=lower better (sign-flip `↓` before any composite).
 
 | Indicator | Domain | Dir | AU coverage |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Disposable income per capita | Income | ↑ | strong →2024 |
 | Median net wealth | Income | ↑ | **sparse (4 pts)** |
 | Top quintile S80/S20 | Income | ↓ | **sparse (5 pts)** |
@@ -92,7 +92,7 @@ Working thesis — *"Mind the Gap: Australia's Lived Reality Paradox"*: macro pr
 Python analysis + Jupyter report. NOT a webapp — the deliverable is a document. No Cloudflare/Supabase/DB/dashboard framework.
 
 | Layer | Tool |
-|---|---|
+| --- | --- |
 | Env / repro | `uv` (or `venv`) + `requirements.txt` |
 | Wrangle | `pandas` |
 | Charts | `plotly` (interactive) + `matplotlib`/`seaborn` (static) |
