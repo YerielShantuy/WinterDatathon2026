@@ -1,0 +1,12 @@
+handle,n_countries_A,recommended_anchor_A,recommended_anchor_n_A,max_coverage_year_A,max_coverage_n_A,raw_latest_year,raw_latest_n_A,au_at_recommended
+employment_rate,47,2025.0,42,2016,47,2025,42,True
+negative_affect,47,2023.0,47,2010,47,2023,47,True
+lack_of_support,47,2023.0,47,2010,47,2023,47,True
+deaths_despair,46,2023.0,36,2016,46,2024,18,True
+life_expectancy,45,2023.0,43,2018,45,2024,4,True
+gender_wage_gap,44,2024.0,31,2022,44,2024,31,True
+long_hours,43,2025.0,40,2016,43,2025,40,True
+housing_affordability,38,2024.0,20,2018,37,2025,1,True
+life_satisfaction,37,2025.0,22,2021,34,2025,22,False
+disposable_income,34,2023.0,24,2010,33,2025,3,True
+gdp_per_capita_wb,1,,0,2010,1,2024,1,False
