@@ -191,7 +191,8 @@ def build() -> go.Figure:
         xref="paper", yref="paper", x=0, y=-0.14, xanchor="left", showarrow=False,
         align="left", font=dict(size=10.5, color="#5f6368"),
         text=("Source: OECD How's Life?  |  Level = 2023 percentile vs OECD peers (n per point = marker size)  |  "
-              "Momentum = per-decade slope, z-scored per indicator; subjective series are 3-year pooled Gallup (6 pts)."),
+              "Momentum = per-decade slope, z-scored per indicator (SD of its own history), so a small absolute "
+              "move in a low-variance series can read as 'rising'; subjective series are 3-year pooled Gallup (6 pts)."),
     )
 
     fig.update_layout(
